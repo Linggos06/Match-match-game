@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+}
+html {
+    font-size: 20px;
+}
+
+.settings_container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 252px;
+    margin: 0 auto;
+    margin-top: 94px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    overflow: hidden;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+

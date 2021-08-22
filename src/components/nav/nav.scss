@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    flex: 0 0 550px;
+    align-items: center;
+    height: 74px;
+ ul {
+        display: flex;
+        height: inherit;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 100%;
+    }
+
+    li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: inherit;
+        align-items: center;
+        padding: 0 10px 0;
+    }
+
+    span {
+        width: 25px;
+        height: 25px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 7px;
+    }
+
+    li:hover {
+        background-color: #1a6266;
+        cursor: pointer;
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
+}

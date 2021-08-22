@@ -1,0 +1,17 @@
+[
+    {
+        "path": "about",
+        "text": "About Game",
+        "background": "soru.png"
+    },
+    {
+        "path": "best_score",
+        "text": "Best Score",
+        "background": "stars.png"
+    },
+    {
+        "path": "settings",
+        "text": "Game Settings",
+        "background": "settings.png"
+    }
+]
