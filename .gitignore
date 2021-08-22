@@ -87,11 +87,5 @@ build/
 dist/
 ### JSDoc template
 docs/
-.eslintignore
-.eslintrc.js
-.prettierrc.js
 package-lock.json
-package.json
-postcss.config.js
-tsconfig.json
-webpack.config.js
+
