@@ -51,8 +51,18 @@ export default class App {
         this.location = location;
         this.main.element.innerHTML = '';
         if (this.location === 'about') {
-            // eslint-disable-next-line no-empty
+            const settingsContainer = document.createElement('div');
+            settingsContainer.textContent =
+                'All cards are mixed up. Cards lay down in rows, face down. You should turn over any two cards. If the two cards match, they will stay face up. If they don’t match, they will turn back over. The game is over when all the cards have been matched.';
+            settingsContainer.classList.add('settings_container');
+            settingsContainer.classList.add('about_container');
+            this.main.element.appendChild(settingsContainer);
         } else if (this.location === 'best_score') {
+            const settingsContainer = document.createElement('div');
+            settingsContainer.textContent = 'Best Scores';
+            settingsContainer.classList.add('settings_container');
+            settingsContainer.classList.add('about_container');
+            this.main.element.appendChild(settingsContainer);
         } else if (this.location === 'game') {
             this.game = new Game();
             this.indexCardsType = this.dropdown.checkSelected() || 0;
