@@ -14,8 +14,8 @@ window.addEventListener('load', () => {
 
 window.addEventListener('scroll', () => {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.querySelector('.header').style.top = '-75px';
+        document.querySelector<HTMLElement>('.header').style.top = '-75px';
     } else {
-        document.querySelector('.header').style.top = '0px';
+        document.querySelector<HTMLElement>('.header').style.top = '0px';
     }
 });

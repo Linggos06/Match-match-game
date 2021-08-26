@@ -69,6 +69,7 @@ export default class App {
             this.indexGameType = this.dropdown2.checkSelected() || 0;
             this.game.getCardsPics(this.indexCardsType, this.indexGameType);
             this.main.element.appendChild(this.game.element);
+            this.header.text = 'Pause Game';
         } else if (this.location === 'settings') {
             const settingsContainer = document.createElement('div');
             settingsContainer.classList.add('settings_container');
