@@ -1,0 +1,67 @@
+[{
+    "category": "animals",
+    "images": [
+       "kangaroo.png",
+       "orca.png",
+       "kiwi.png",
+       "koala.png",
+       "ladybug.png",
+       "lemur.png",
+       "leopard.png",
+       "lion.png" 
+    ],
+    "images6": [
+        "kangaroo.png",
+        "kiwi.png",
+        "koala.png",
+        "lemur.png",
+        "leopard.png",
+        "lion.png",
+        "red panda.png",
+        "raccoon.png",
+        "rabbit.png",
+        "seahorse.png",
+        "shark.png",
+        "sheep.png",
+        "squirrel.png",
+        "swan.png",
+        "tiger.png",
+        "turtle.png",
+        "yak.png",
+        "zebra.png"
+    ]
+},
+
+{
+    "category": "fruits",
+    "images": [
+       "apple.png",
+       "bananas.png",
+       "cherry.png",
+       "grape.png",
+       "kiwi.png",
+       "lemon.png",
+       "mango.png",
+       "pineapple.png" 
+    ],
+    "images6": [
+        "apple.png",
+        "bananas.png",
+        "cherry.png",
+        "grape.png",
+        "kiwi.png",
+        "lemon.png",
+        "mango.png",
+        "pineapple.png",
+        "pomegranate.png",
+        "rambutan.png",
+        "strawberry.png",
+        "watermelon.png",
+        "pitaya.png",
+        "blueberry.png",
+        "mangosteen.png",
+        "orange.png",
+        "coconut.png",
+        "papaya.png"
+     ]
+}]
